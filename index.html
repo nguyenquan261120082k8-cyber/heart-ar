@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heart AR - Mô hình tim 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Model Viewer -->
+    <script
+        type="module"
+        src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js">
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>🫀 Heart AR</h1>
+            <p>Mô hình giải phẫu tim 3D</p>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="viewer-card">
+
+            <model-viewer
+                id="heartModel"
+
+                src="models/heart.glb"
+
+                alt="Mô hình giải phẫu tim người 3D"
+
+                camera-controls
+                touch-action="pan-y"
+
+                auto-rotate
+                rotation-per-second="20deg"
+
+                shadow-intensity="1"
+
+                ar
+                ar-modes="webxr scene-viewer quick-look"
+
+                ar-scale="auto"
+
+                environment-image="neutral"
+
+                exposure="1.1">
+
+                <button
+                    slot="ar-button"
+                    class="ar-button">
+                    📷 ĐƯA TIM VÀO KHÔNG GIAN THẬT
+                </button>
+
+            </model-viewer>
+
+        </section>
+
+        <section class="info">
+
+            <h2>🫀 Human Heart</h2>
+
+            <p>
+                Mô hình 3D giúp quan sát cấu tạo của tim
+                từ nhiều góc độ.
+            </p>
+
+            <div class="buttons">
+
+                <button onclick="resetModel()">
+                    🔄 Đặt lại
+                </button>
+
+                <button onclick="toggleRotation()">
+                    ⏯️ Xoay tự động
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="instructions">
+
+            <h2>📖 Cách sử dụng</h2>
+
+            <div class="instruction-grid">
+
+                <div>
+                    <strong>👆 Xoay</strong>
+                    <p>Kéo mô hình bằng một ngón tay.</p>
+                </div>
+
+                <div>
+                    <strong>🤏 Phóng to</strong>
+                    <p>Dùng hai ngón tay để zoom.</p>
+                </div>
+
+                <div>
+                    <strong>📱 AR</strong>
+                    <p>Nhấn nút AR để đặt tim vào không gian thật.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Heart AR — Educational 3D Anatomy Demo
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
