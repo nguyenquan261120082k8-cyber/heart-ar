@@ -26,6 +26,45 @@
 
     <main>
 
+        <!-- Thanh menu cấu tạo tim -->
+        <aside class="anatomy-panel">
+
+            <h2>🫀 Cấu tạo tim</h2>
+
+            <button data-part="aorta">
+                🔴 Động mạch chủ
+            </button>
+
+            <button data-part="left-ventricle">
+                🫀 Tâm thất trái
+            </button>
+
+            <button data-part="right-ventricle">
+                🫀 Tâm thất phải
+            </button>
+
+            <button data-part="left-atrium">
+                🫀 Tâm nhĩ trái
+            </button>
+
+            <button data-part="right-atrium">
+                🫀 Tâm nhĩ phải
+            </button>
+
+            <button data-part="pulmonary-artery">
+                🔵 Động mạch phổi
+            </button>
+
+            <button data-part="mitral-valve">
+                🟢 Van hai lá
+            </button>
+
+            <button data-part="tricuspid-valve">
+                🟢 Van ba lá
+            </button>
+
+        </aside>
+
         <section class="viewer-card">
 
             <model-viewer
@@ -59,6 +98,26 @@
                 </button>
 
             </model-viewer>
+
+        </section>
+
+        <!-- Bảng thông tin chi tiết bộ phận -->
+        <section id="anatomyInfo" class="anatomy-info">
+
+            <button id="closeInfo">×</button>
+
+            <span id="partCategory">
+                Buồng tim
+            </span>
+
+            <h2 id="partName">
+                Tâm thất trái
+            </h2>
+
+            <p id="partDescription">
+                Tâm thất trái bơm máu giàu oxy
+                vào động mạch chủ.
+            </p>
 
         </section>
 
