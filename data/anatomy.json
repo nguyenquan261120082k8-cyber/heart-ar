@@ -1,1 +1,65 @@
+{
+  "aorta": {
+    "name": "Động mạch chủ",
+    "shortName": "Aorta",
+    "category": "Mạch máu",
+    "description": "Động mạch lớn nhất của cơ thể. Động mạch chủ đưa máu giàu oxy từ tâm thất trái đến các cơ quan trong cơ thể.",
+    "color": "#ef4444"
+  },
 
+  "left-ventricle": {
+    "name": "Tâm thất trái",
+    "shortName": "Left Ventricle",
+    "category": "Buồng tim",
+    "description": "Tâm thất trái bơm máu giàu oxy vào động mạch chủ để đưa máu đi nuôi cơ thể.",
+    "color": "#3b82f6"
+  },
+
+  "right-ventricle": {
+    "name": "Tâm thất phải",
+    "shortName": "Right Ventricle",
+    "category": "Buồng tim",
+    "description": "Tâm thất phải bơm máu ít oxy đến phổi thông qua động mạch phổi.",
+    "color": "#3b82f6"
+  },
+
+  "left-atrium": {
+    "name": "Tâm nhĩ trái",
+    "shortName": "Left Atrium",
+    "category": "Buồng tim",
+    "description": "Tâm nhĩ trái tiếp nhận máu giàu oxy từ phổi.",
+    "color": "#8b5cf6"
+  },
+
+  "right-atrium": {
+    "name": "Tâm nhĩ phải",
+    "shortName": "Right Atrium",
+    "category": "Buồng tim",
+    "description": "Tâm nhĩ phải tiếp nhận máu ít oxy từ cơ thể.",
+    "color": "#8b5cf6"
+  },
+
+  "pulmonary-artery": {
+    "name": "Động mạch phổi",
+    "shortName": "Pulmonary Artery",
+    "category": "Mạch máu",
+    "description": "Đưa máu ít oxy từ tâm thất phải đến phổi.",
+    "color": "#06b6d4"
+  },
+
+  "mitral-valve": {
+    "name": "Van hai lá",
+    "shortName": "Mitral Valve",
+    "category": "Van tim",
+    "description": "Van nằm giữa tâm nhĩ trái và tâm thất trái, giúp máu chảy theo một chiều.",
+    "color": "#22c55e"
+  },
+
+  "tricuspid-valve": {
+    "name": "Van ba lá",
+    "shortName": "Tricuspid Valve",
+    "category": "Van tim",
+    "description": "Van nằm giữa tâm nhĩ phải và tâm thất phải.",
+    "color": "#22c55e"
+  }
+}
